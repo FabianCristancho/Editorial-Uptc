@@ -1,44 +1,38 @@
-.secondary {
-    margin: 0;
-    padding-bottom: 0;
+encabezado-2-large {
+    height: 90px !important;
+    line-height: 90px !important;
 }
 
-.navfast {
-    margin: 0px;
-    padding: 5px 5px;
-    padding-top: 15px;
+encabezado-2-medium {
+    height: 90px !important;
+    line-height: 90px !important;
 }
 
- .mytabs {
-    margin: 0px;
-    padding-top: 20px;
-    padding-bottom: 0px;
+.nav-wrapper li > a {
+    color: black;
 }
 
-.tabs {
-    position: relative;
-    bottom: 0;
-    margin: 0;
-} 
+.sidenav-trigger {
+    color: black;
+}
 
-.tabs .tab a{
-    color:#000;
-} /*Black color to the text*/
+ul li a:hover {
+    text-decoration: underline;
+}
 
-.tabs .tab a:hover {
-    background-color:#eee;
-    color:#000;
-} /*Text color on hover*/
+.active {
+    text-decoration: underline;
+    background-color: #eeeeee;
+}
 
-/* .tabs .tab a.active {
-    background-color:hsl(49, 100%, 50%);
-    color:#000;
-}  */
+@media (max-width: 397px) {
+    .navbar-brand img {
+        width: 160px;
+    }
+}
 
-.tabs .indicator {
-    background-color:#000;
-} /*Color of underline*/
-
-.aux {
-    margin-bottom: -14px;
+@media (max-width: 355px) {
+    .navbar-brand img {
+        display: none;
+    }
 }

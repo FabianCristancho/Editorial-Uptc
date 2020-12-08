@@ -12,7 +12,6 @@ export class FastNavigationComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    $('.tabs').tabs();
+    $('.sidenav').sidenav();
   }
-
 }
