@@ -1,0 +1,38 @@
+encabezado-2-large {
+    height: 90px !important;
+    line-height: 90px !important;
+}
+
+encabezado-2-medium {
+    height: 90px !important;
+    line-height: 90px !important;
+}
+
+.nav-wrapper li > a {
+    color: black;
+}
+
+.sidenav-trigger {
+    color: black;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+    background-color: #eeeeee;
+}
+
+@media (max-width: 397px) {
+    .navbar-brand img {
+        width: 160px;
+    }
+}
+
+@media (max-width: 355px) {
+    .navbar-brand img {
+        display: none;
+    }
+}

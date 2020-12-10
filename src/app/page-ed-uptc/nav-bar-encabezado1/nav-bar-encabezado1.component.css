@@ -1,0 +1,53 @@
+.validate {
+    color: yellow;
+}
+
+.encabezado-large{
+    height: 60px;
+    line-height:  54px;
+}
+
+.encabezado-medium{
+    height: 50px;
+    line-height: 48px;
+}
+
+.encabezado-down{
+    height: 40px;
+    line-height: 38px;
+}
+
+.social .icons {
+    color: #ffd600;
+}
+
+.social .icons:hover{
+    font-size: 2em;
+    color: white;
+}
+
+.social .icons-med {
+    font-size: 1.7em;
+    color: #ffd600;
+}
+
+.social .icons-med:hover {
+    color: white;
+}
+
+.social .icons-dwn {
+    font-size: 1.5em;
+    color: #ffd600;
+}
+
+.social .icons-dwn:hover {
+    color: white;
+}
+
+.search {
+    max-width: 10em;
+}
+
+.search-small {
+    max-width: 5em;
+}
